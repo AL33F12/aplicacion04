@@ -14,6 +14,9 @@ $(document).ready(function(e) {
   $('#B_Vibrar').tap(function(){
     navigator.notification.vibrate(500);
   });
+  $('#B_sonar').tap(function(){
+    navigator.notification.beep(3);
+  });
  },false); //deviceready
 }); //document ready
 
